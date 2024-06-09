@@ -187,10 +187,11 @@ with dpg.window(tag="main",label="window title", autosize=True):
                 load_database()
                 
         with dpg.window(show=False, modal=True, tag="info_popup"):
-            dpg.add_text("Select a directory to get started.")
+            dpg.add_text("Select files to get started.")
             dpg.add_text("The documents from which text can be gatered will appear in the sidebar.")
-            dpg.add_text("You may start off by importing as many directories as you like, and you can update the model with more documents at anytime.")
-            dpg.add_text("Note that the model requires at least a few hundred documents to generate results.")
+            dpg.add_text("You can change the file type in the bottom right hand corner of the file selector dialoge.")
+            dpg.add_text("You may start off by importing as many files as you like.")
+            dpg.add_text("Note that the model requires at least a couple hundred documents to generate results.")
             dpg.add_button(label="OK", callback=lambda: dpg.hide_item("info_popup"))
    
         with dpg.child_window(autosize_x=True, tag="visualizer"):

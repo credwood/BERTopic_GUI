@@ -5,7 +5,7 @@
 
 - This project is written in Python and makes use of the Python GUI framework [DearPyGui](https://github.com/hoffstadt/DearPyGui/)
 
-- This project uses[BERTopic](https://maartengr.github.io/BERTopic/index.html), a module for topic modeling.
+- This project uses [BERTopic](https://maartengr.github.io/BERTopic/index.html), a module for topic modeling.
 
 
 ## Instruction
@@ -28,15 +28,17 @@ Install the dependencies:
 pip install -r requirements.txt
 ```
 
-## Launching the Music Player
+## Launching the GUI
 Once the dependencies are installed, run the app:
 
 ```
 python file_org.py
 ```
 
+It might take a while to launch the first time you run this command, but subequent launches should be much faster.
+
 ## License
-- Licensed Under [GPL-3.0](https://github.com/credwood/split_audio/blob/main/LICENSE)
+- Licensed Under [GPL-3.0](https://github.com/credwood/BERTopic_GUI/blob/main/LICENSE)
 
 ## Maintenance and Development
 - Developed and maintained By [Charysse Redwood](https://github.com/credwod)
