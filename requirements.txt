@@ -1,0 +1,5 @@
+bertopic
+textract
+pdfminer.six
+python-docx
+dearpygui
